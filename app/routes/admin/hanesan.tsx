@@ -1,9 +1,9 @@
 import React from 'react'
 
-const dashboard = () => {
+const hanesan = () => {
   return (
     <div>はねっちです</div>
   )
 }
 
-export default dashboard
+export default hanesan
