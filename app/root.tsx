@@ -23,8 +23,7 @@ export const links: Route.LinksFunction = () => [
   },
 ];
 
-import ej2base from "@syncfusion/ej2-base";
-const { registerLicense } = ej2base;
+import { registerLicense } from "@syncfusion/ej2-base";
 
 registerLicense(import.meta.env.VITE_SYNCFUSION_LICENSE_KEY);
 
