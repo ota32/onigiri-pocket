@@ -39,7 +39,7 @@ const AllUsers = ({ loaderData }: Route.ComponentProps) => {
                 />
                 <span>{props.name}</span>
               </div>
-            )}></ColumnDirective>
+            )}/>
           <ColumnDirective
             field="email"
             headerText="Email Address"
